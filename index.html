@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Pet Planet</title>
+    <link rel="stylesheet" href="./archivo CSS/estilo.css">
+
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="text-center colorHeader">
+    <img class="widthLogo" src="./img/iconos/pet-shop.png" alt="">
+    <p>Pet Planet</p>
+  </header>
+  <nav>
+    <ul class="nav nav-tabs text-center estiloNav">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+          aria-expanded="false">Productos</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="./archivo JS/ProductosGatos.js">Productos para gatos</a></li>
+          <li><a class="dropdown-item" href="./archivo JS/ProductosPerros.js">Productos para perros</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="./Paginas/ProductosParaAmbos.html">Productos para ambos</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./Paginas/contacto.html">Contacto</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide  marginCarrousel" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/productos/Cucha carrousel.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/productos/Cucha carrousel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/productos/Comida perro carrousel.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+  <section class="estiloSection">
+    <div class="card bordeCards" style="width: 18rem; margin-right: 2rem;">
+      <img src="./img/productos/bebedero fuente agua.jpg" class="card-img-top bordeCards" alt="...">
+      <div class="card-body bordeCards">
+        <h5 class="card-title bordeCards">Bebedero en cascada.</h5>
+        <p class="card-text bordeCards">$2000</p>
+      </div>
+    </div>
+    <div class="card bordeCards" style="width: 18rem; margin-right: 2rem;">
+      <img src="./img/productos/Casa madera con patio.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Casa de madera con un patio.</h5>
+        <p class="card-text ">$4000</p>
+      </div>
+    </div>
+    <div class="card bordeCards" style="width: 18rem; margin-right: 2rem;">
+      <img src="./img/productos/Correa 3 metros.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Correa de 3 metros</h5>
+        <p class="card-text">$700</p>
+      </div>
+    </div>
+    <div class="card bordeCards" style="width: 18rem; margin-right: 2rem;">
+      <img src="./img/productos/mochilas pecheras para perros.jpg" class="card-img-top fondoCard" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mochila pechera para perros</h5>
+        <p class="card-text">$1000</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <footer class="text-center">
+    <a class="linea" href="https://www.facebook.com/">
+      <img class="widthRedes" src="./img/iconos/facebook.png" alt="">
+    </a>
+    <a class="linea" href="https://www.instagram.com/">
+      <img class="widthRedes" src="./img/iconos/instagram.png" alt="">
+    </a>
+    <a class="linea" href="https://www.whatsapp.com/">
+      <img class="widthRedes" src="./img/iconos/whatsapp.png" alt="">
+    </a>
+  </footer>
+  <script src="./archivo JS/ProductosGatos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

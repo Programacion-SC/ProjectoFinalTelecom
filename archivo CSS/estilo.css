@@ -1,0 +1,64 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(201, 162, 202);
+}
+
+.widthRedes{
+    width: 4rem;
+}
+.widthLogo{
+    width: 4rem;
+}
+.linea{
+    color: transparent;
+}
+.colorHeader{
+    background-color: rgb(162, 80, 171);
+    color: cornsilk;
+}
+.marginCarrousel{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.marginForm{
+    margin: 5rem
+}  
+.card{
+    border: 0.4rem solid rgb(201, 162, 202) !important;
+}
+
+.estiloSection{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.estiloNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: black;
+}
+.nav-link{
+    color: black !important;
+}
+.fondoCard{
+    background-color: rgb(201, 162, 202);
+}
+
+@media screen and (min-width:1000px) {
+    .estiloSection{
+        margin: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }   
+}
+
+@media screen and (min-width:600px){
+
+}
