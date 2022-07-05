@@ -49,6 +49,9 @@ body{
 .fondoCard{
     background-color: rgb(201, 162, 202);
 }
+.estiloCardsProdGatos{
+   
+}
 
 @media screen and (min-width:1000px) {
     .estiloSection{
