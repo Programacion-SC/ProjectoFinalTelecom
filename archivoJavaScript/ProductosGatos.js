@@ -25,3 +25,4 @@ let productos = [
         <p class="descripcion-tarjeta">${element.description}</p>
         </div>` 
     })
+  
