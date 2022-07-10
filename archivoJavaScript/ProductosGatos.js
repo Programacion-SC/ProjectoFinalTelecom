@@ -16,8 +16,8 @@ let productos = [
     },
     {
         image: "../img/productos/hamacaParaGatos.jpg",
-        title: "Trepador de gatos",
-        description: "$2000"
+        title: "Hamaca para gatos",
+        description: "$4600"
     }, 
     {
         image: "../img/productos/trajePostOperacionGato.jpg",
