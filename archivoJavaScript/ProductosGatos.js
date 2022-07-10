@@ -5,7 +5,7 @@ let productos = [
         description: "$2000",
     }, 
     {
-        image: "../img/productos/cuchaGatos1.jpg",
+        image: "../img/productos/uchaGatos1.jpg",
         title: "Cucha para gatos",
         description:"$3000",
     },
@@ -21,7 +21,7 @@ let productos = [
     }, 
     {
         image: "../img/productos/trajePostOperacionGato.jpg",
-        title: "Traje post-operacion para gatos.",
+        title: "Traje post-operacion para gatos",
         description:"$5000",
     },
     {
