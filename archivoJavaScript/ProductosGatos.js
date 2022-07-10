@@ -5,7 +5,7 @@ let productos = [
         description: "$2000",
     }, 
     {
-        image: "../img/productos/uchaGatos1.jpg",
+        image: "../img/productos/CuchaGatos1.jpg",
         title: "Cucha para gatos",
         description:"$3000",
     },
@@ -15,7 +15,7 @@ let productos = [
         description:"$2500",
     },
     {
-        image: "../img/productos/trepadorGatos.jpg",
+        image: "../img/productos/hamacaParaGatos.jpg",
         title: "Trepador de gatos",
         description: "$2000"
     }, 
@@ -25,9 +25,9 @@ let productos = [
         description:"$5000",
     },
     {
-        image: "../img/productos/rascadadorGatos.jpg",
-        title: "Rascador para gatos",
-        description:"$2500"
+        image: "../img/productos/bebederoFuente.jpg",
+        title: "Bebedero en forma de fuente",
+        description:"$4500"
     }
 
     ]   
