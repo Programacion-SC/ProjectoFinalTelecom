@@ -10,7 +10,7 @@ let productosSection1 = [
         description:"$1500",
     },
     {
-        image: "../img/productos/mochilaParaLlevarPerros.jpg",
+        image: "../img/productos/mochilaParaLlevarPerro.jpg",
         title: "Mochila para llevar a tu mascota",
         description:"$4500",
     },
@@ -35,9 +35,9 @@ let productosSection1 = [
         let container = document.querySelector (".container") 
         container.innerHTML += `
         <div class="card widthCardProdPerros">
-        <img class="img-tarjeta estiloCardsProdGatos" src=${element.image} alt="Imagen de producto para mascota"/>
-        <h5 class="titulo-tarjeta">${element.title}</h5>
-        <p class="descripcion-tarjeta">${element.description}</p>
+        <img class="img-tarjeta estiloCardsProdGatos estiloCards" src=${element.image} alt="Imagen de producto para mascota"/>
+        <h5 class="titulo-tarjeta estiloCards">${element.title}</h5>
+        <p class="descripcion-tarjeta estiloCards">${element.description}</p>
         </div>` 
     })
     productosSection2.forEach (element => {

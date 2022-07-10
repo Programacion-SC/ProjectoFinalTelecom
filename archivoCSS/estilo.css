@@ -61,22 +61,21 @@ body{
 .fondoCard{
     background-color: rgb(201, 162, 202);
 }
-.productosOrganizacion {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 5rem;
-    grid-row-gap: 5rem;
-    justify-content: space-evenly;
-}
 
-@media screen and (min-width:800px) {
+
+@media screen and (min-width:500px) {
     .estiloSection{
         margin: 3rem;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
     }   
+    .estiloCards{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
     .productosOrganizacion {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -86,5 +85,12 @@ body{
     }
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:1000px){
+    .productosOrganizacion {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 5rem;
+        grid-row-gap: 5rem;
+        justify-content: space-evenly;
+    }
 }
